@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="NPTEL Learning Hub banner">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1b2a"/>
+      <stop offset="55%" stop-color="#1b3a5b"/>
+      <stop offset="100%" stop-color="#123a5e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f8981d"/>
+      <stop offset="50%" stop-color="#f46b45"/>
+      <stop offset="100%" stop-color="#e44d26"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3f7cb6" stop-opacity="0.38"/>
+      <stop offset="100%" stop-color="#3f7cb6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f8981d" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#f8981d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bg)"/>
+
+  <!-- soft glows -->
+  <circle cx="1030" cy="70" r="190" fill="url(#glowA)"/>
+  <circle cx="150" cy="260" r="160" fill="url(#glowB)"/>
+
+  <!-- faint geometric rings -->
+  <circle cx="1040" cy="200" r="70" fill="none" stroke="#5b93c9" stroke-opacity="0.25" stroke-width="1.5"/>
+  <circle cx="1040" cy="200" r="100" fill="none" stroke="#5b93c9" stroke-opacity="0.15" stroke-width="1.5"/>
+  <circle cx="120" cy="70" r="55" fill="none" stroke="#5b93c9" stroke-opacity="0.2" stroke-width="1.5"/>
+
+  <!-- sparkle dots -->
+  <circle cx="880" cy="60" r="3" fill="#7fd1ff" opacity="0.85"/>
+  <circle cx="925" cy="115" r="2" fill="#7fd1ff" opacity="0.6"/>
+  <circle cx="255" cy="55" r="2.5" fill="#ffc46b" opacity="0.7"/>
+  <circle cx="200" cy="110" r="2" fill="#7fd1ff" opacity="0.5"/>
+
+  <!-- faint code glyphs -->
+  <text x="85" y="235" font-family="Consolas, 'Courier New', monospace" font-size="46" fill="#8fbde8" opacity="0.16">&#123; &#125;</text>
+  <text x="1010" y="105" font-family="Consolas, 'Courier New', monospace" font-size="40" fill="#8fbde8" opacity="0.2">&lt;/&gt;</text>
+  <text x="640" y="62" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#8fbde8" opacity="0.22">System.out.println("Hello, Learner!");</text>
+
+  <!-- top chip -->
+  <rect x="485" y="88" width="230" height="34" rx="17" fill="#ffffff" fill-opacity="0.07" stroke="#7fb3e3" stroke-opacity="0.45"/>
+  <text x="600" y="110" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#a8cdf0" letter-spacing="2">SWAYAM 🇮🇳 IIT KHARAGPUR</text>
+
+  <!-- title -->
+  <text x="600" y="168" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="54" font-weight="700" fill="#ffffff" letter-spacing="4">NPTEL LEARNING HUB</text>
+
+  <!-- accent underline -->
+  <rect x="470" y="190" width="260" height="5" rx="2.5" fill="url(#accent)"/>
+
+  <!-- subtitle -->
+  <text x="600" y="232" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#9ec3e6">Weekly Assignment Solutions • Practice Programs • Course Notes</text>
+
+  <!-- current course line -->
+  <text x="600" y="266" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="15" fill="#6a94ba">Currently tracking: ☕ Programming in Java — Weeks 1&#8211;6 done &amp; counting 🚀</text>
+</svg>
