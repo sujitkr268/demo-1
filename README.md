@@ -25,7 +25,7 @@
 
 | # | Course | Institute | Progress | Status | Solutions |
 |---|--------|-----------|----------|--------|-----------|
-| 1️⃣ | ☕ **Programming in Java** | IIT Kharagpur | `6 / 12 weeks` | 🚧 In Progress | [Folder](<Programming In Java>) |
+| 1️⃣ | ☕ **Programming in Java** | IIT Kharagpur | `12 / 12 weeks` | ✅ Completed | [Folder](<Programming In Java>) |
 | 2️⃣ | 🇳🇵 *Upcoming — next NPTEL course* | — | — | 🔜 Planned | — |
 | 3️⃣ | 🏗 *Reserved for future courses* | — | — | — | — |
 
@@ -47,14 +47,19 @@ Each week contains hands-on assignment programs (`j1.java` → `j5.java`) solvin
 | **4** | Classes & objects — creating and using custom classes | [week 4 📁](<Programming In Java/week 4>) (5) | ✅ |
 | **5** | Methods, static context, recursion (GCD), exact-output matching | [week 5 📁](<Programming In Java/week 5>) (5) | ✅ |
 | **6** | Exception handling — `try/catch`, `throw`, `Exception` vs `exception` | [week 6 📁](<Programming In Java/week 6>) (5) | ✅ |
-| **7+** | coming in Autumn session... | — | 🔜 |
+| **7** | Strings & text processing — finding the longest word, `split()` | [week 7 📁](<Programming In Java/week 7>) (5) | ✅ |
+| **8** | Multithreading — `Thread`, `Runnable`, `start()`, thread classes | [week 8 📁](<Programming In Java/week 8>) (5) | ✅ |
+| **9** | 2D arrays & matrices — flipping values, nested loops | [week 9 📁](<Programming In Java/week 9>) (5) | ✅ |
+| **10** | JDBC & databases — `java.sql` package, imports, connectivity | [week 10 📁](<Programming In Java/week 10>) (5) | ✅ |
+| **11** | JDBC in action — `Connection`, `Statement`, executing SQL, exception handling | [week 11 📁](<Programming In Java/week 11>) (5) | ✅ |
+| **12** | Mixed practice — classes & objects, nested conditionals, arrays | [week 12 📁](<Programming In Java/week 12>) (5) | ✅ |
 
-> 📝 **Note:** the folder names originally drifted (`week1` vs `week 4`) — kept as-is so old links don't break. Total: **29 solved programs** across 6 weeks.
+> 📝 **Note:** the folder names originally drifted (`week1` vs `week 4`) — kept as-is so old links don't break. Total: **59 solved programs** across all 12 weeks. 🎉
 
 <div align="center">
 
-![Progress](https://img.shields.io/badge/Weeks_Completed-6-blue?style=for-the-badge)
-![Problems](https://img.shields.io/badge/Programs_Solved-29-success?style=for-the-badge&logo=hackerrank&logoColor=white)
+![Progress](https://img.shields.io/badge/Weeks_Completed-12-blue?style=for-the-badge)
+![Problems](https://img.shields.io/badge/Programs_Solved-59-success?style=for-the-badge&logo=hackerrank&logoColor=white)
 ![Language](https://img.shields.io/badge/Language-100%25%20Java-hotpink?style=for-the-badge&logo=openjdk&logoColor=white)
 
 </div>
@@ -73,7 +78,13 @@ Each week contains hands-on assignment programs (`j1.java` → `j5.java`) solvin
     ├── 📁 week3/               ← j1–j5* · loops & iteration
     ├── 📁 week 4/              ← j1–j5 · classes & objects
     ├── 📁 week 5/              ← j1–j5 · methods & recursion
-    └── 📁 week 6/              ← j1–j5 · exception handling
+    ├── 📁 week 6/              ← j1–j5 · exception handling
+    ├── 📁 week 7/              ← j1–j5 · strings & text processing
+    ├── 📁 week 8/              ← j1–j5 · multithreading
+    ├── 📁 week 9/              ← j1–j5 · 2D arrays & matrices
+    ├── 📁 week 10/             ← j1–j5 · JDBC & java.sql
+    ├── 📁 week 11/             ← j1–j5 · JDBC & SQLite practice
+    └── 📁 week 12/             ← j1–j5 · mixed practice
 ```
 
 ---
@@ -99,7 +110,7 @@ java j1
 
 - [x] Weeks 1–6 of Programming in Java ✅
 - [x] Documented error-fix notes in programs (why each fix works) 🔍
-- [ ] 🏃 Complete Weeks 7–12 of Programming in Java
+- [x] 🏃 Complete Weeks 7–12 of Programming in Java ✅
 - [ ] 🎯 Enroll & archive the next NPTEL course
 - [ ] 📝 Add end-term / Interim exam prep notes
 - [ ] 🧪 Add self-test inputs & expected outputs for every program
@@ -111,8 +122,8 @@ java j1
 <div align="center">
 
 ![Courses Completed](https://img.shields.io/badge/NPTEL%20Courses-1%20tracked-2ea44f?style=flat-square)
-![Programs Solved](https://img.shields.io/badge/Programs%20Solved-29-2ea44f?style=flat-square)
-![Commitment](https://img.shields.io/badge/Commitment-Growing%20Weekly-orange?style=flat-square)
+![Programs Solved](https://img.shields.io/badge/Programs%20Solved-59-2ea44f?style=flat-square)
+![Weeks Done](https://img.shields.io/badge/Weeks_Completed-12_of_12-2ea44f?style=flat-square)
 
 </div>
 
